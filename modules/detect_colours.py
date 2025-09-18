@@ -119,7 +119,7 @@ class DetectRed:
         upper_red2 = np.array([180, 255, 255])
 
         # Apply the threshold for the colour detection
-        mask1 = cv2.inRange(hsv, lower_red1, upper_red1) 
+        mask1 = cv2.inRange(hsv, lower_red1, upper_red1)
         mask2 = cv2.inRange(hsv, lower_red2, upper_red2)
         mask = cv2.bitwise_or(mask1, mask2)
 
