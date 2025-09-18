@@ -1,3 +1,11 @@
+"""
+Module to detect red and blue colours in images using HSV colour space.
+
+Contains:
+- DetectRed: Class for detecting red regions
+- DetectBlue: Class for detecting blue regions
+"""
+
 from pathlib import Path
 import cv2
 import numpy as np
